@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Image Animals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    
+    <div class="container-full">
+        <nav>
+            <div class="logo">Logo</div>
+
+            <div class="nav-container">
+                
+                <div class="primary">
+                    <a href="#">ESPECIES</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">OUR WORK</a>
+                    <a href="#">GET INVOLVED</a>
+                </div> 
+            </div>
+            <div class="nav-container-res">
+                
+                <div class="primary">
+                    <a href="#">ESPECIES</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">OUR WORK</a>
+                    <a href="#">GET INVOLVED</a>
+                </div> 
+
+                <div class="btn-menu-cancel"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+
+            <div class="btn-menu-responsive"><i class="fa-solid fa-bars-staggered"></i></div>
+
+            <div class="secondary">
+                <a href="#">Donate</a>
+            </div> 
+        </nav>
+
+        <div class="body-container">
+            <div id="slider">
+
+                <div class="full-slider">
+                    <div id="slider-content">
+                        <div class="specAndStat">Species</div>
+                        <h2 id="slide-title">Brown <br>Bear</h2>
+                        <span data-slide-title="0">Brown <br>Bear</span>
+                        <span data-slide-title="1">Amur <br>Leopard</span>
+                        <span data-slide-title="2">Asiatic <br>Lion</span>
+                        <span data-slide-title="3">Siberian <br>Tiger</span>
+
+                        
+                        <div class="specAndStat">Status</div>
+                        <div id="slide-status">Critically Endangered</div>
+                        <span data-slide-status="0">Critically Endangered</span>
+                        <span data-slide-status="1">Endangered</span>
+                        <span data-slide-status="2">Endangered</span>
+                        <span data-slide-status="3">Least Concern</span>
+                    </div>
+                </div>
+    
+                <img class="slider-image" src="./img/bear2.jpg"/>
+                <img class="slider-image" src="./img/leopard2.jpg"/>
+                <img class="slider-image" src="./img/lion2.jpg"/>
+                <img class="slider-image" src="./img/tiger2.jpg"/>
+    
+                <div id="pagination" class="pagination">
+                    <button class="active" data-slide="0"></button>
+                    <button data-slide="1"></button>
+                    <button data-slide="2"></button>
+                    <button data-slide="3"></button>
+                </div>
+    
+            </div>  
+    </div>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40525870-5"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js'></script>
+    <script  src="./script.js"></script>
+
+</body>
+</html>
